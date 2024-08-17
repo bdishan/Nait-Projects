@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+    background-color: lightblue;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgray;
+    margin-bottom: 10PX;
+}
+
+h4{
+    text-align: center;
+    grid-column: 1/-1;
+    margin: 2px;
+}
+#ri{
+    text-align: right;
+}
+
+#va{
+    position: relative;
+    width: 200%;
+    right: 100%;
+}

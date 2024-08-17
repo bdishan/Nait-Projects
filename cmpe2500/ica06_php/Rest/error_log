@@ -1,0 +1,205 @@
+[28-Feb-2020 04:18:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:145
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages(Array)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 145
+[28-Feb-2020 04:25:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages(Array)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:26:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages(Array)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:26:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages(Array)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:30:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages('dw')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:31:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages('Dishan Is The B...')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages('bj')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:43:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages('cs')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:51:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:159
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages('')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 159
+[28-Feb-2020 04:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:184
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 184
+[28-Feb-2020 04:54:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:184
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 184
+[28-Feb-2020 04:57:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:184
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 184
+[28-Feb-2020 16:27:44 UTC] PHP Parse error:  syntax error, unexpected '$reults' (T_VARIABLE) in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 183
+[28-Feb-2020 16:43:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:195
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 195
+[28-Feb-2020 16:43:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:195
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 195
+[28-Feb-2020 16:44:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:44:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:44:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:44:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:44:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:45:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:162
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages('')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 162
+[28-Feb-2020 16:45:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on integer in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:162
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(62): PostMessages('f')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 162
+[28-Feb-2020 16:45:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:187
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(64): DeleteMessage(NULL)
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 187
+[28-Feb-2020 16:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SQLQuery() in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:109
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(60): GetMessages('')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 109
+[28-Feb-2020 16:48:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SQLQuery() in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:109
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(60): GetMessages('')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 109
+[28-Feb-2020 16:48:08 UTC] NONSQL
+[28-Feb-2020 16:48:08 UTC] Query success
+[28-Feb-2020 16:49:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SQLQuery() in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:109
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(60): GetMessages('')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 109
+[28-Feb-2020 16:49:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SQLQuery() in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php:109
+Stack trace:
+#0 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(60): GetMessages('')
+#1 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/RestAPI.php(111): ConcreteAPI->messages(Array)
+#2 /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php(77): AbstractAPI->processAPI()
+#3 {main}
+  thrown in /home/dburad55/public_html/cmpe2500/ica06_php/Rest/api.php on line 109
+[28-Feb-2020 16:49:47 UTC] NONSQL
+[28-Feb-2020 16:49:47 UTC] Query success
+[28-Feb-2020 16:49:47 UTC] Sql response: Array
+[28-Feb-2020 16:50:40 UTC] NONSQL
+[28-Feb-2020 16:50:40 UTC] Query success
+[28-Feb-2020 16:50:40 UTC] Sql response: Array

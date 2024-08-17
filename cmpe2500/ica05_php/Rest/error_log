@@ -1,0 +1,27 @@
+[25-Feb-2020 21:30:55 UTC] SELECT `msgID`, username, `stamp`, `msg` FROM `prj_messages` 
+    INNER JOIN prj_users on prj_users.userID = prj_messages.userID 
+    where msg like '%%' or username like '%%'
+[25-Feb-2020 21:32:51 UTC] SELECT `msgID`, username, `stamp`, `msg` FROM `prj_messages` 
+    INNER JOIN prj_users on prj_users.userID = prj_messages.userID 
+    where msg like '%%' or username like '%%'
+[25-Feb-2020 21:32:51 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php on line 125
+[25-Feb-2020 21:32:51 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php on line 125
+[25-Feb-2020 21:32:51 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php on line 125
+[25-Feb-2020 21:36:40 UTC] 3
+[25-Feb-2020 21:36:40 UTC] 4
+[25-Feb-2020 21:36:40 UTC] 5
+[25-Feb-2020 21:37:05 UTC] cdwcs
+[25-Feb-2020 21:37:05 UTC] test
+[25-Feb-2020 21:37:05 UTC] test
+[25-Feb-2020 21:37:08 UTC] cdwcs
+[25-Feb-2020 21:37:08 UTC] test
+[25-Feb-2020 21:37:08 UTC] test
+[25-Feb-2020 21:40:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php:136) in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/RestAPI.php on line 120
+[25-Feb-2020 21:41:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php:126) in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/RestAPI.php on line 120
+[25-Feb-2020 21:41:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php:126) in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/RestAPI.php on line 120
+[25-Feb-2020 21:44:06 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php on line 139
+[25-Feb-2020 21:44:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php:126) in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/RestAPI.php on line 120
+[25-Feb-2020 21:45:34 UTC] {"data":[],"status":"Rows Acquired: 3"}
+[25-Feb-2020 21:45:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dburad55/public_html/cmpe2500/ica05_php/Rest/api.php:126) in /home/dburad55/public_html/cmpe2500/ica05_php/Rest/RestAPI.php on line 120
+[25-Feb-2020 21:46:38 UTC] {"data":[],"status":"Rows Acquired: 3"}
+[25-Feb-2020 21:46:40 UTC] {"data":[],"status":"Rows Acquired: 3"}

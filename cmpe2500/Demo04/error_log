@@ -1,0 +1,6 @@
+[18-Dec-2017 21:30:15 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'keletest_testing'@'localhost' (using password: YES) in /home/jdsilver/public_html/cmpe2500/demos/demo4/dbUtility.php on line 18
+[23-Jan-2018 20:28:35 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'keletest_testing'@'localhost' (using password: YES) in /home/jdsilver/public_html/cmpe2500/demos/demo4/dbUtility.php on line 18
+[29-Jan-2018 15:40:36 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'keletest_testing'@'localhost' (using password: YES) in /home/jdsilver/public_html/cmpe2500/demos/demo4/dbUtility.php on line 18
+[29-Jan-2019 15:26:03 UTC] PHP Fatal error:  Call to undefined function striptags() in /home/jdsilver/public_html/cmpe2500/demos/demo4/titlesWebService.php on line 22
+[29-Jan-2019 15:27:21 UTC] PHP Fatal error:  Call to undefined function striptags() in /home/jdsilver/public_html/cmpe2500/demos/demo4/titlesWebService.php on line 22
+[29-Jan-2019 15:28:48 UTC] PHP Fatal error:  Call to undefined function striptags() in /home/jdsilver/public_html/cmpe2500/demos/demo4/titlesWebService.php on line 23
