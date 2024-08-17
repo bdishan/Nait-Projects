@@ -1,0 +1,90 @@
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    color: #999595;
+    display: grid;
+    gap: 10px;
+}
+
+header 
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: #999595;
+}
+
+footer 
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: #999595;
+}
+
+#gameGrid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 0.5fr 1fr;
+}
+
+#options {
+    grid-column: 1/2;
+    font-family: inherit;
+    text-align: center;
+    padding: auto;
+}
+
+#btnMakePuzzle {
+    font-family: inherit;
+    background-color: whitesmoke;
+    font-size: 2em;
+    border-radius: 20px;
+}
+
+#difficulty {
+    font-family: inherit;
+    background-color: transparent;
+    color: #999595;
+    font-size: 3em;
+    width: auto;
+}
+
+label {
+    font-size: larger;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+#puzzle {
+    grid-column: 2/3;
+    display: grid;
+}
+
+#winner {
+    animation: blink 1s linear infinite;
+    font-family: inherit;
+    font-size: 8em;
+    color: #999595;
+    text-align: center;
+    visibility: hidden;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
