@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ICA 05</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./ica05style.css'>
+    <script src='./ica05.js'></script>
+    <script>
+        let clickCount = 0;
+    </script>
+</head>
+
+<body>
+    <div id=site>
+        <div class="header text-center">
+            ICA 05 - JavaScript Intro
+        </div>
+
+        <form class="controls" name="myForm">
+            <div>
+                <label for="">Redirect using location:</label>
+            </div>
+            <div>
+                <button type="button" id="btnGoogle"><img src="./Google_Chrome_icon_(2011).png" alt="Chrome Logo"> </button>
+            </div>
+            <div>
+                <label for="">Back 1 in History:</label>
+            </div>
+            <div>
+                <button type="button" id="btnBack">Reverse</button>
+            </div>
+            <div>
+                <label for="">Secret Agent, Man:</label>
+            </div>
+            <div>
+                <button type="button" id="btnDaddy">Whose my Daddy?</button>
+            </div>
+            <div>
+                <label for="">Current Dimensions:</label>
+            </div>
+            <div class="dimensions">
+                <button type="button" id="btnDims">Show Dims</button>
+                <input type="text" id="dims">
+            </div>
+            <div>
+                <label for="">Click Counter:</label>
+            </div>
+            <div>
+                <button type="button" id="btnCount" onclick="alert('Click Count: ' + ++clickCount);">Count Me !!!</button>
+            </div>
+            <div>
+                <label for="">Prompt Test:</label>
+            </div>
+            <div>
+                <button type="button" id="btnPrompt">?</button>
+            </div>
+            <div>
+                <label for="">Groovy Man:</label>
+            </div>
+            <div>
+                <button type="button" id="btnGroovy">Spaced Out</button>
+            </div>
+
+            <div>
+                <label for="">Make a Table:</label>
+            </div>
+            <div class="trackbar">
+                <input type="range" id="rangeRows" min="-1" max="16" value="0"><label id="tableRows">0</label>
+                <input type="range" id="rangeCols" min="-1" max="16" value="0"><label id="tableCols">0</label>
+                <button type="button" id="btnMakeTable">Tablize</button>
+            </div>
+        </form>
+
+        <div id="tableOutput">
+
+        </div>
+
+        <div class="footer text-center">
+            &copy;2019 by Dishan Burad
+            <br>
+            <script>
+                document.write('Last Modified:' + document.lastModified);
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

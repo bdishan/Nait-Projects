@@ -1,0 +1,23 @@
+@import url('//fonts.googleapis.com/css?family=Sniglet|Boogaloo|Slackey|Comfortaa&effect=3d');
+
+
+body, div, button, select, option, input {
+	font-family: 'Sniglet', sans-serif;
+	font-size: x-large;
+}
+h1, h2, h3 {
+	font-family: 'Comfortaa', cursive;
+}
+div{
+  padding: 0% 10%;
+}
+button {
+  min-width: 150px;
+  opacity: 0.0;
+  transform : scale(20,20) rotate(180deg);
+  transition: transform 1000ms ease-in, opacity 1000ms ease-in;
+}
+footer 
+{
+    background-color: blue;
+}

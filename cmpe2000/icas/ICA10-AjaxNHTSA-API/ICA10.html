@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ICA 10</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='ica10style.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='ica10.js'></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="font-3d">ICA10 - JSON Vehicles</h1>
+    </div>
+
+    <div id="main">
+        <div id="control">
+            <label for="Manufactureer">Manufacturer : <select id="Manufactureer"></select></label>
+            <label for="Year">Year : <select id="Year"></select></label>
+            <label for="Type">Type : <select id="Type"></select></label>
+            <br>
+            <button class="span-3" id="btnInvoke">Invoke Request</button>
+            <br>
+            <div class="span-3" id="status"></div>
+            <div class="span-3" id="modelID"></div>
+            <br>
+            <div class="span-3" id="responseData"></div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy;2019 by Dishan Burad
+        <br>
+        <script>
+            document.write('Last Modified:' + document.lastModified);
+        </script>
+    </div>
+</body>
+
+</html>

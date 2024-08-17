@@ -1,0 +1,58 @@
+#site
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: lightgrey;
+}
+
+.title
+{
+    grid-column: 1;
+    background: white;
+    font-size: 40pt;
+    text-shadow: black 2px 2px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#PicBox
+{
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 98vw;
+}
+
+#Pics
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+
+
+#PicLabel
+{
+    background: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+footer
+{
+    grid-column: 1;
+    background: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+img 
+{
+    max-width:100%;
+    height:auto;
+}

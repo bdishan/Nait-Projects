@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgb(231, 199, 199);
+    grid-template-areas: 
+                        "h h h h h"
+                        ". container container container ."
+                        ". table table table ."
+                        " footer footer footer footer footer";
+}
+
+header{
+    grid-area: h;
+    background-color: blue;
+    color: rgb(226, 194, 194);
+    text-align: center;
+}
+
+.container{
+    grid-area: container;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+table{
+    grid-area: table;
+    color: black;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ica06</title>
+    <link rel="stylesheet" href="./ica06.css">
+    <script src="./ica08demo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1 class="font-effect-3d">
+                    ica06 Motorcycle Purchase Form
+            </h1>
+        </header>
+
+        <form name= "myForm" id="myForm" 
+        action="https://thor.net.nait.ca/~demo/cmpe2000/ica04_formtest.php" method="get">
+            <input type="hidden" name="totalCost" value="">
+            <div class="form-label">Brand:</div>
+            <div>
+                <select name="brand" id="dropList" size="4">
+                    <option value="" selected>Please Pick One</option>
+                    <option value="Honda">Japanese</option>
+                    <option value="Ducati">European</option>
+                    <option value="Harley">American</option>
+                </select>
+                <img id="bikeImage" src="" alt="">
+            </div>
+
+            <!-- Model select radiobuttons -->
+            <div class="form-label">
+                <label for="model">Model:</label>
+            </div>
+            <div class="list-control">
+                <label><input type="radio" name="model" value="5000">Basic</label>
+                <label><input type="radio" name="model" value="10000">Naked</label>
+                <label><input type="radio" name="model" value="15000">Rocket</label>
+            </div>
+
+            <!-- Options checkboxes -->
+            <div class="form-label">
+                <label>Options:</label>
+            </div>
+        
+            <div class="list-control">
+                <label><input type="checkbox" name="ABS" value="200">Automatic Braking System</label>
+                <label><input type="checkbox" name="TCS" value="300">Traction Control System</label>
+                <label><input type="checkbox" name="FMM" value="500">Flight Mode Mapping</label>
+            </div>
+
+            <!-- Pre-Payment label -->
+            <div class="form-label">
+                <label>Pre-Payment:</label>
+            </div>
+
+            <div>
+                <input type="text" id="payment" name="downpayment" value="">
+            </div>
+    
+            <!-- Selected brand label -->
+            <div class="span-2" id="status"></div>
+    
+            <!-- Submit button -->
+                <div >
+                    <button type="submit">Let's Buy</button>
+                </div>
+        </form>
+
+        <footer>
+                &copy;2019 by Dishan Burad<br/>
+                <script>document.write('Last Modified:' + document.lastModified);</script>
+        </footer>
+
+    </div>
+</body>
+</html>

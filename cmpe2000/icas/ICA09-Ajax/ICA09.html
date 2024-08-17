@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ICA 09</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./ICA09.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='./ICA09.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="font-3d">ICA09 - jQuery Ajax Intro</h1>
+    </header>
+
+    <div id="main">
+        <div id="hobbies">
+            <label for="txtName">Name:</label>
+            <input type="text" id="txtName">
+            <label for="txtHobby">Hobby:</label>
+            <input type="text" id="txtHobby">
+            <label for="rngHowMuch">How much i like it:</label>
+            <input type="range" id="rngHowMuch" value="8" min="1" max="13">
+            <button class="span-2" id="btnGet">Call with Get</button>
+            <label class="span-2" id="lblOutput"></label>
+        </div>
+        <br>
+        <div id="tableMaker">
+            <label for="rngRows">Row Count:<input id="rngRows" type="range" value="5" min="1" max="13"></label>
+            <label for="rngCols">Column Count:<input id="rngCols" type="range" value="5" min="1" max="13"></label>
+            <button class="span-2" id="btnMakeTable"></button>
+            <div class="span-2" id="table"></div>
+        </div>
+        <br>
+
+        <div id="arrays">
+            <button class="span-2" id="btnGenerate">Generate Numbers and Show</button>
+            <div class="span-2" id="tgtGenerate"></div>
+            <button class="span-2" id="btnModify">Post and Show Modified</button>
+            <div class="span-2" id="tgtModify"></div>
+        </div>
+
+        <br>
+        <div id="fail">
+            <button id="btnFail" class="span-2">Fail!</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy;Dishan Burad
+        <br>
+        <script>
+            document.write('Last Modified:' + document.lastModified);
+        </script>
+    </footer>
+</body>
+
+</html>

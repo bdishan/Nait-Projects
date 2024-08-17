@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample Form</title>
+</head>
+<body>
+    <form method="POST" action="https://thor.net.nait.ca/~demo/cmpe2000/ica04.php">
+        <label>What is your name:
+            <input type="text" name="ClientName">
+        </label>
+        <label>
+            <input type="password" name="Password">
+        </label>
+        <br>
+        <fieldset>
+            <legend>What is your age group?</legend>
+            <label>Under 18<input type="radio" id="under18" name="age" 
+                value="18orunder" checked></label>
+            <label>Over 18<input type="radio" id="over18" name="age"
+                value="over18"></label>
+        </fieldset>
+        <div>
+            <label>
+                How motivated are you?
+                <input type="range" name="motivation"
+                    min="0" max="10">
+            </label>
+        </div>
+        <div>
+            Which areas would you like to work out?
+            <label>Core<input type="checkbox" name="core"></label>
+            <label>Upper Body<input type="checkbox" name="upperbody"></label>
+            <label>Lower Body<input type="checkbox" name="lowerbody"></label>
+        </div>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

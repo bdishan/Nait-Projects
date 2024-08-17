@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ica04-Forms</title>
+
+    <link rel="stylesheet" href="./ica04.css">
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <h1>ICA 04 - CSS Grid Forms</h1>
+      </div>
+
+      <div class="formContent">
+        <form action="https://thor.net.nait.ca/~demo/cmpe2000/ica04.php" method="POST">
+          <div class="formGrid">
+            <input type="hidden" name="Invisible" value="cmpe2000">
+
+            <div class="usernameDiv">
+              <label for="UserName">Username: </label>
+              <input type="text" name="UserName" id="UserName" placeholder="Enter Username" maxlength="12" autocomplete="off" required>
+            </div>
+
+            <div class="passwordDiv">
+              <label for="Password">Password: </label>
+              <input type="password" name="Password" id="Password" placeholder="Enter Password" maxlength="8" autocomplete="off" required>
+            </div>
+
+            <div class="RadioB">
+              <fieldset>
+                <legend > Who do you Love? : </legend>
+                <input type="radio" name="Fanboy" id="Luke" value="Luke">
+                <label for="Luke">Luke</label><br>
+                <input type="radio" name="Fanboy" id="Kirk" value="Kirk">
+                <label for="Kirk">Kirk</label><br>
+                <input type="radio" name="Fanboy" id="Bender" value="Bender">
+                <label for="Bender">Bender</label>
+              </fieldset>
+            </div>
+
+            <div class="rangeDiv">
+              <label for="rangeInput">How much do you like Steven's Class:</label>
+              <input type="range" id="rangeInput" name="HowMuch" min="10" max="20">
+            </div>
+
+            <div class="motoDiv">
+              <label for="Moto">Choice of Ride:</label>
+              <select name="Moto" id="Moto">
+                <option value="BMW">Germany</option>
+                <option value="Ducati">Italy</option>
+                <option value="Honda">Japan</option>
+                <option value="Triumph">United Kingdom</option>
+              </select>
+            </div>
+
+            <div class="LightsDiv">
+              <label for="Lights">Lights : </label>
+              <input type="checkbox" name="Lights" id="Lights" value="Lights" checked>
+            </div>
+
+            <div class="resetDiv">
+              <input class="stretchBtn" type="reset" value="Reset Now">
+            </div>
+
+            <div class="submitDiv">
+              <input class="stretchBtn" type="submit" value="Lets Go">
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+      <div class="footer">
+          <p>&copy;2019 Dishan Burad<br>
+            <script>document.write('Last Modified:' + document.lastModified);</script>
+      </div>
+    </div>
+
+
+  </body>
+</html>

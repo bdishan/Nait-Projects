@@ -1,0 +1,35 @@
+@import url('//fonts.googleapis.com/css?family=Sniglet|Boogaloo|Slackey|Comfortaa&effect=3d');
+
+body, div, button, select, option, input {
+	font-family: 'Sniglet', sans-serif;
+	font-size: x-large;
+}
+h1, h2, h3 {
+	font-family: 'Comfortaa', cursive;
+}
+div{
+  padding: 0% 10%;
+}
+#status {
+  font-family: 'Boogaloo', sans-serif; 
+  padding : 20px
+}
+.text-center {
+  text-align: center;
+}
+.panel {
+  display : grid;
+  grid-template-columns : 1fr 3fr;
+}
+button {
+  min-width: 150px;
+  transform : scale(20,20);
+  transition: transform 1000ms ease-in;
+}
+.buttons {
+  display : flex;
+  justify-content: center;
+}
+
+.Highlight { background-color: #00cc00;}
+.fail { background-color: #fdd; }

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./ica08.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./Ica08.js" type="text/javascript"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ICA08</title>
+</head>
+<body id="site">
+    <header class = "title">
+        ICA08 - JQuery Slideshow 
+    </header>
+    <section id="PicBox">
+        <div id="pic"><img id="pictureHere" alt="" src="./images/pic1.jpg"></div>
+    </section>
+    <section id = "Pics">
+        <input type="button" id="Previous" value="Previous">
+        <h3 id="caption" ></h3>
+        <input type="button" id="Next" value="Next">
+    </section>
+    <section id= "Pics">
+        <label for="animation">Transition:
+                <select id="animation">
+                    <option value="f">Fade In / Fade Out</option>
+                    <option value="s">Slide</option>
+                </select>
+        </label>
+        <input type="button" id="PlayPuase" value="Play">
+        <label for="300ms"><input type="radio" value="300" id="300ms" name="delayTime">300ms</label>
+        <label for="900ms"><input type="radio" value="900" id="900ms" name="delayTime" checked>900ms</label>
+        <label for="2000ms"><input type="radio" value="2000" id="2000ms" name="delayTime" >2000ms</label>
+    </section>
+    <footer>
+        &copy;2019 by Dishan Burad<br/>
+        <script>document.write('Last Modified:' + document.lastModified);</script>
+    </footer>
+</body>
+</html>
