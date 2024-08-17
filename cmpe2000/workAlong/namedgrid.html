@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Positioning Areas by Name</title>
+    <style>
+        body {
+            margin: 10px;
+            font-family: 'Abel';
+            text-align: center;
+            width: 580px;
+            }
+
+        .container {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 70vw 20vw;
+            grid-template-areas:    "header  header" 
+                                    "nav     nav" 
+                                    "content advert" 
+                                    "article advert"
+                                    "footer  footer";
+            }
+
+        .item {
+            color: white;
+            padding: 1.5em 0;
+            font-size: 2em;
+            }
+
+        header {
+            background: #0d9;
+            }
+
+        section {
+            background: #9d0;
+            }
+
+        aside {
+            background: #d90;
+            }
+
+        footer {
+            background: #90d;
+            }
+
+        header {
+            grid-area: header;
+            }
+
+        aside {
+            grid-area: advert;
+            }
+
+        section {
+            grid-area: content;
+            height: 180px;
+            }
+
+        footer {
+            grid-area: footer;
+            }
+        
+        nav {
+            grid-area: nav;
+            background-color: aquamarine;
+        }
+
+        article {
+            grid-area: article;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Using Named Grid Areas</h1>
+    <div class="container">
+        <header class="item">Header</header>
+        <nav class="item">Nav</nav>
+        <section class="item">Content</section>
+        <article class="item">Article</article>
+        <aside class="item">Advert</aside>
+        <footer class="item">Footer</footer>
+    </div>
+</body>
+</html>
