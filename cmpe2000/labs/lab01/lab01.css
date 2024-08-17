@@ -1,0 +1,88 @@
+.site {
+  border-width : 100px;
+  padding : 50px;
+  display : grid;
+  grid-gap : 20px 40px;
+  /* MOBILE layout first */
+  grid-template-columns : 1fr 1fr;
+}
+#page {
+  border-width : 100px;
+  padding : 50px;
+  display : grid;  
+  grid-gap : 20px 40px;
+  grid-template-columns : 1fr;
+}
+header  {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(11, 122, 212);
+}
+section{
+  
+  color: white;
+}
+
+body{
+  background-color: black;
+  font-family:cursive, Courier, monospace,sans-serif;
+
+}
+table{
+  background-color: aqua;
+  justify-content: center;
+  grid-column: 1/5;
+  grid-row: 6/9; 
+  display: flex;
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
+  border-style: dashed;
+  border-color: blue;
+
+}
+
+.menu {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(233, 37, 37);
+}
+
+.menu li {
+list-style-type: none;
+color: aliceblue;
+} 
+
+footer{
+  color: rgb(71, 67, 67);
+  size: 0.5em;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto 50px;
+  grid-gap:  10px 15px;
+  background-color: aquamarine;
+}
+@media only screen and (max-width : 900px) {
+  .menu li {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid;
+    border-color: #CACACA;
+    border-width: 1px;
+    font-size: 2rem;
+    
+  }
+  .site{
+    grid-template-columns : 1fr ;
+  }
+
+}

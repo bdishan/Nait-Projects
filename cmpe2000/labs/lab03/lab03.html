@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lab03 - Json-o-tron</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='lab03.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="font-3d">Lab 03 - Json-o-Tron</h1>
+    </header>
+
+    <div id="main">
+        <div id="controls">
+            <label>Tag Name:</label>
+            <input type="text" id="txtTagDesc" placeholder="tagDesc to Add">
+            <label>Minimum:</label>
+            <input type="text" id="txtMin" placeholder="Minimum Tag Value">
+            <label>Maximum:</label>
+            <input type="text" id="txtMax" placeholder="Maximum Tag Value">
+            <button class="span-2" id="btnAddTag">Add Tag</button>
+            <br>
+            <button class="span-2" id="btnGetAll">Get All</button>
+            <label>Tag by Filter:</label>
+            <input type="text" id="txtTagFilter" placeholder="Tag Description Filter">
+            <button class="span-2" id="btnFilter">Filter</button>
+            <select id="selFilter"></select>
+            <button id="btnGetHist">Get Historical</button>
+            <button class="span-2" id="btnGetLive">Get Live</button>
+            <label class="span-2">Live:<input id="chkLive" type="checkbox"></label>
+        </div>
+        <br>
+        <div id="statusOuput">No DIV Content Yet</div>
+        <br>
+        <div id="table1">
+            <table id="tblAll">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tag Description</th>
+                        <th>Min</th>
+                        <th>Max</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="table2">
+            <table id="tblLive">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tag Description</th>
+                        <th>Min</th>
+                        <th>Max</th>
+                        <th>Value</th>
+                        <th>Bar</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <br>
+        <div id="table3">
+            <table id="tblHist">
+                <thead>
+                    <tr>
+                        <th>Minimum</th>
+                        <th>Maximum</th>
+                        <th>Value</th>
+                        <th>TimeStamp</th>
+                        <th>Bar</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <br>
+        <div id="graph">
+            <div class="min-max">
+                <label id="lblMax"></label>
+                <label id="lblMin"></label>
+            </div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+            <div class="graph-data"></div>
+        </div>
+    </div>
+    <div class="filler-div"></div>
+    <footer>
+        &copy;2019 by Dishan Burad
+        <br>
+        <script>
+            document.write('Last Modified:' + document.lastModified);
+        </script>
+    </footer>
+
+</body>
+
+</html>
